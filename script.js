@@ -27,7 +27,7 @@ const matcapTexture = textureLoader.load('textures/matcaps/8.png')
 const fontLoader = new FontLoader()
 
 fontLoader.load(
-    '/fonts/helvetiker_regular.typeface.json',
+    'https://totney.github.io/Activi.-1.12/dist/fonts/helvetiker_regular.typeface.json',
     (font) =>
     {
         // Material
